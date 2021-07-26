@@ -116,12 +116,13 @@ class _OTPScreenState extends State<OTPScreen> {
                           activeFillColor: Colors.white,
                         ),
                         length: 6,
-                        onChanged: (val) {
+                        onCompleted: (val) {
                           setState(() {
                             pinController.text = val;
                           });
                           print(pinController.text);
                         },
+                        onChanged: (val) {},
                       ),
                     ),
                     Container(

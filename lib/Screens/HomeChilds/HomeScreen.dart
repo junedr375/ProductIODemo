@@ -114,7 +114,7 @@ class _ProductTileState extends State<ProductTile> {
               Container(
                 height: 140,
                 padding: EdgeInsets.only(top: 10),
-                width: screenSize.width * 0.45,
+                width: screenSize.width * 0.46,
                 child: Image.network(
                   product['imgUrl'],
                   fit: BoxFit.fitHeight,
